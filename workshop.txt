@@ -1,0 +1,8 @@
+This simply adds both Shrek 1 and Shrek 2 into the game's pool of VHS tapes that you can find in the world, and yes, the title is most certainly not lying. I'm mentally insane, and I put both movies (mostly) word for word into this game. I wanted to make Shrek 2 a seperate mod, but I think both lua files overwrite one another when both were active, so I meshed them together instead, making the first mod obsolete now.
+
+Anyway, Shrek 2. Sorry it didn't end up being Bee Movie like most people seemed to recommend after Shrek 2. I'm sorry to say but I'm n̶o̶t gonna do that movie, along with Shrek The Third and Forever After. I think I'm calling it at the first two Shrek movies, someone else can carry on my legacy. I might do one more Dreamworks movie that's one of my favorites, but that's it probably it. Anyway. Make your Zomboid character happy today and get these globally acclaimed movies today! Who the hell cares that these movies came out in the early 2000's when this game takes place in the 90's? It's Shrek. He's love and life and all that jazz idefk...
+
+(Side note: Even though I'm confident that I was thorough with mistakes, I'm sure a few slipped through the cracks. Just don't be too surprised if there's small typos, or if some text displays the wrong character's color once or twice...)
+
+Mod ID: Shrek1and2intheirENTIRETYasvhs's;Shrek1and2intheirTranslate
+Workshop ID: 3138722707
