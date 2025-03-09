@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import re
 import unicodedata
+import shutil
 
 requests.packages.urllib3.disable_warnings()
 
@@ -152,6 +153,20 @@ def main():
             translations,
             config['output_dir']
         )
+
+    base_translate_dir = 'Contents/mods/Shrek1and2intheirTranslate'
+    base_entirety_dir = 'Contents/mods/Shrek1and2intheirENTIRETYasvhs\'s'
+    version_42_translate_dir = 'Contents/mods/Shrek1and2intheirTranslate/42'
+    version_42_entirety_dir = 'Contents/mods/Shrek1and2intheirENTIRETYasvhs\'s/42'
+
+    for item in ['poster.png', 'mod.info']:
+        shutil.copy(os.path.join(base_translate_dir, item), os.path.join(version_42_translate_dir, item))
+        shutil.copy(os.path.join(base_entirety_dir, item), os.path.join(version_42_entirety_dir, item))
+
+    shutil.copytree(os.path.join(base_translate_dir, 'media'), os.path.join(version_42_translate_dir, 'media'), dirs_exist_ok=True)
+    shutil.copytree(os.path.join(base_entirety_dir, 'media'), os.path.join(version_42_entirety_dir, 'media'), dirs_exist_ok=True)
+
+    print("Created version 42 build with selected files and directories")
 
 if __name__ == '__main__':
     main()
